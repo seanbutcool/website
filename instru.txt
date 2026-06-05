@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+ <html>
+	<head> <link href="style.css" rel="stylesheet" type="text/css" /> </head>
+	<body> 
+<h2> Isaac Beethoven Guzman Garcia's Website - Web Page Part 1 Lab - Index</h2>
+
+<p> My website is very cool. i will intro my hobbies and favourite sites:)</p>
+<p> i am interested in geography and history, i like to play the piano and play fortnite, and i hope to get a AA in computer science and engineering.</p>
+<div class="namefordivtag"> Hobbies </div>
+<ol> playing fortnite
+	<br>
+	making maps
+	<br>
+	learning:)
+	<br>
+	playing basketball
+	<br>
+</ol><div class="namefordiv"> links & image of the fatherland</div>
+<a href="https://www.mapchart.net/world.html"> Worldchart </a>
+	<br>
+<a href="https://territorial.io/"> Territorial io </a>
+	<br>
+	<br>
+	<a href="https://boss.vvc.edu/moodle/course/index.php?categoryid=98">class</a>
+	<br> 
+	<img src=https://vemaps.com/uploads/img/mx-07.png>
+	<br>
+	<a href="file:///Users/studentlocal/Desktop/site/Page2.html"> Open Page 2</a>
+		</body>
+</html>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RTLeVgcQjHs?si=T6Uu4-8R6XsbcyQ8" title="YouTube video player"
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-
+in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
