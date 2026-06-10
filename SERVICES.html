@@ -1,87 +1,177 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <title>Services / Products</title>
     <style>
         body {
             background-color: rgb(244, 221, 191);
-            font-family: "Times New Roman", Times, serif;
             color: rgb(0, 0, 0);
-            text-align: center;
+            font-family: "Times New Roman", serif;
+            margin: 0;
+            padding: 2rem;
+        }
+        .page-wrapper {
+            display: inline-block;
+            text-align: left;
+            max-width: 780px;
+            background: rgba(255, 246, 231, 0.9);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+        }
+        h2, h3, h5 {
+            margin: 0 0 16px;
+            font-family: "Times New Roman", serif;
+            color: rgb(0, 0, 0);
+        }
+        h3 {
+            font-size: 0.95rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: rgb(0, 0, 0);
+        }
+        h2 {
+            font-size: 2rem;
+            letter-spacing: 0.08em;
+        }
+        h5 {
+            font-size: 1rem;
+            margin-top: 32px;
+            color: rgb(0, 0, 0);
+        }
+        p {
+            line-height: 1.7;
+            margin: 0 0 20px;
         }
         table {
-            margin: 0 auto;
+            width: 100%;
+            border-collapse: collapse;
+            margin: 24px 0 32px;
+        }
+        table th,
+        table td {
+            padding: 14px 16px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        table th {
+            background-color: rgba(255, 246, 231, 0.9);
+            text-align: left;
+            color: rgb(0, 0, 0);
+            font-weight: 600;
+        }
+        table tr:nth-child(even) td {
+            background-color: rgba(255, 246, 231, 0.95);
+        }
+        table tr:first-child th {
+            text-align: center;
+            letter-spacing: 0.12em;
+        }
+        .section-heading {
+            background-color: rgba(255, 246, 231, 0.9);
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+        }
+        .media-block {
+            margin-bottom: 28px;
+            text-align: center;
+        }
+        .media-block img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        .nav-links {
+            margin-top: 26px;
+        }
+        .nav-links a {
+            color: rgb(119, 43, 5);
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <h3>SERVICES/PRODUCTS</h3>
-    <h2>OUR MENU</h2>
-    <table border="1">
-        <tr>
-            <th colspan="4">======THE MENU======</th>
-        </tr>
-        <tr>
-            <th colspan="4">Drinks</th>
-        </tr>
-        <tr>
-            <th>Items</th>
-            <td>Brisk Ice Tea</td>
-            <td>Black Coffee</td>
-            <td>Soft Drinks</td>
-        </tr>
-        <tr>
-            <th>Cost</th>
-            <td>3.00 $</td>
-            <td>2.00 $</td>
-            <td>3.00 $</td>
-        </tr>
-        <tr>
-            <th colspan="4">Food</th>
-        </tr>
-        <tr>
-            <th>Items</th>
-            <td>Pizza (1 slice)</td>
-            <td>Cheeseburger</td>
-            <td>Hamburger</td>
-        </tr>
-        <tr>
-            <th>Cost</th>
-            <td>10.00 $</td>
-            <td>5.00 $</td>
-            <td>4.00 $</td>
-        </tr>
-        <tr>
-            <th colspan="4">Dessert</th>
-        </tr>
-        <tr>
-            <th>Items</th>
-            <td>Ice Cream</td>
-            <td>Cheese Cake</td>
-            <td>Bannana Split</td>
-        </tr>
-        <tr>
-            <th>Cost</th>
-            <td>6.00 $</td>
-            <td>7.00 $</td>
-            <td>10.00 $</td>
-        </tr>
-    </table>
-    <p>Soft Drinks: Coca Cola, Sprite, Mountain Dew Code Red, Mountain Dew Original, Pepsi, and Mountain Dew Baja Blast.</p>
-    <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6FqFf6iueFJHzPBPwzesptSmqXBnjqrafHnTwTnT4A2TPvZw8pW278syeNA&s>
-    <br><br>
-    <p>Pizza: 10in x 10in peperoni pizza.</p>
-    <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS_dohO7Mb1U4Z9tPMq1PzY5qU2bSrdVW_lNTkjQHJcljcvvNIux30kftWjzc&s>
-    <br><br>
-    <p>Ice Cream: Chocolate double scoop, vanilla double scoop, or strawberry double scoop.</p>
-    <img src=>
-    <br><br>
-    <p>Bannana Split: 3 scoops of vanilla icecream with the classic bannana split style.</p>
-    <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdN2nQTgoFMV-t-xOuk7ZAp5qdQgi7KQgFUmbKh6hZ_EzgI4K1mY6Mce3wLc&s>
-    <br><br>
-    <h5>MEMBERSHIP</h5>
-    <p>For the low price of 7 dollars a month you can attend Iara Oasis</p>
-    <a href="websiteABOUT.html">ABOUT US |</a>
-    <a href="index.html">MAIN PAGE |</a>
-    <a href="CONTACT.html">CONTACT US</a>
+    <div class="page-wrapper">
+        <h3>SERVICES/PRODUCTS</h3>
+        <h2>OUR MENU</h2>
+        <table>
+            <tr>
+                <th colspan="4">======THE MENU======</th>
+            </tr>
+            <tr>
+                <th colspan="4" class="section-heading">Drinks</th>
+            </tr>
+            <tr>
+                <th>Items</th>
+                <td>Brisk Ice Tea</td>
+                <td>Black Coffee</td>
+                <td>Soft Drinks</td>
+            </tr>
+            <tr>
+                <th>Cost</th>
+                <td>3.00 $</td>
+                <td>2.00 $</td>
+                <td>3.00 $</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="section-heading">Food</th>
+            </tr>
+            <tr>
+                <th>Items</th>
+                <td>Pizza (1 slice)</td>
+                <td>Cheeseburger</td>
+                <td>Hamburger</td>
+            </tr>
+            <tr>
+                <th>Cost</th>
+                <td>10.00 $</td>
+                <td>5.00 $</td>
+                <td>4.00 $</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="section-heading">Dessert</th>
+            </tr>
+            <tr>
+                <th>Items</th>
+                <td>Ice Cream</td>
+                <td>Cheese Cake</td>
+                <td>Bannana Split</td>
+            </tr>
+            <tr>
+                <th>Cost</th>
+                <td>6.00 $</td>
+                <td>7.00 $</td>
+                <td>10.00 $</td>
+            </tr>
+        </table>
+        <div class="media-block">
+            <p>Soft Drinks: Coca Cola, Sprite, Mountain Dew Code Red, Mountain Dew Original, Pepsi, and Mountain Dew Baja Blast.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6FqFf6iueFJHzPBPwzesptSmqXBnjqrafHnTwTnT4A2TPvZw8pW278syeNA&s" alt="Soft drinks selection">
+        </div>
+        <div class="media-block">
+            <p>Pizza: 10in x 10in peperoni pizza.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS_dohO7Mb1U4Z9tPMq1PzY5qU2bSrdVW_lNTkjQHJcljcvvNIux30kftWjzc&s" alt="Pepperoni pizza slice">
+        </div>
+        <div class="media-block">
+            <p>Ice Cream: Chocolate double scoop, vanilla double scoop, or strawberry double scoop.</p>
+            <img src=fountain.jpeg alt="Ice cream scoops">
+        </div>
+        <div class="media-block">
+            <p>Bannana Split: 3 scoops of vanilla icecream with the classic bannana split style.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdN2nQTgoFMV-t-xOuk7ZAp5qdQgi7KQgFUmbKh6hZ_EzgI4K1mY6Mce3wLc&s" alt="Banana split dessert">
+        </div>
+        <h5>MEMBERSHIP</h5>
+        <p>For the low price of 7 dollars a month you can attend Iara Oasis</p>
+        <div class="nav-links">
+            <a href="websiteABOUT.html">ABOUT US |</a>
+            <a href="index.html">MAIN PAGE |</a>
+            <a href="CONTACT.html">CONTACT US</a>
+        </div>
+    </div>
 </body>
 </html>
