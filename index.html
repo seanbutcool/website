@@ -1,28 +1,69 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>Welcome to Our Website</title>
         <style>
             body {
                 background-color: rgb(244, 221, 191);
-                text-align: center;
+                color: rgb(0, 0, 0);
+                font-family: "Times New Roman", serif;
+                margin: 0;
+                padding: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+            .page-wrapper {
+                display: block;
+                text-align: left;
+                max-width: 780px;
+                background: rgba(255, 246, 231, 0.9);
+                border-radius: 12px;
+                padding: 2rem;
+                box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+            }
+            h1, h2, h3, h5 {
+                margin: 0 0 16px;
+                font-family: "Times New Roman", serif;
+                color: rgb(0, 0, 0);
+            }
+            h1 {
+                font-size: 2rem;
+                letter-spacing: 0.08em;
+                text-transform: uppercase;
             }
             img {
-                display: block;
-                margin: 0 auto;
                 max-width: 100%;
                 height: auto;
+                display: block;
+                margin: 0.75rem 0;
+                border-radius: 8px;
+                border: 1px solid rgba(0,0,0,0.06);
+            }
+            nav {
+                margin-top: 1rem;
+            }
+            .nav-links a, nav a {
+                color: rgb(119, 43, 5);
+                text-decoration: none;
+                margin: 0 0.5rem;
+            }
+            .nav-links a:hover, nav a:hover {
+                text-decoration: underline;
             }
         </style>
     </head>
     <body>
-        <h1 style="font-size: xx-large;">WELCOME TO OUR WEBSITE!</h1>
-        <br><br>
-        <img src="gamecafelogo.png" alt="trust">
-        <nav>
-            <a href="websiteABOUT.html">ABOUT US |</a>
-            <a href="SERVICES.html">SERVICES/PRODUCTS |</a>
-            <a href="CONTACT.html">CONTACT US</a>
-        </nav>
+        <div class="page-wrapper">
+            <h1>WELCOME TO OUR WEBSITE!</h1>
+            <img src="gamecafelogo.png" alt="trust">
+            <nav>
+                <a href="websiteABOUT.html">ABOUT US |</a>
+                <a href="SERVICES.html">SERVICES/PRODUCTS |</a>
+                <a href="CONTACT.html">CONTACT US</a>
+            </nav>
+        </div>
     </body>
 </html>
